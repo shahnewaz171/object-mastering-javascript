@@ -1,1 +1,1 @@
-# object-mastering
+# object-mastering-javascript
