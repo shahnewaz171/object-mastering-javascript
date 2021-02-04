@@ -12,6 +12,7 @@ const normalPerson = {
     }
 };
 
+
 const newazPerson = {
     firstName: 'Muhammad',
     lastName: 'Shahnewaz',
