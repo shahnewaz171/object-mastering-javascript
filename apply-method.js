@@ -18,7 +18,7 @@ const newazPerson = {
     lastName: 'Shahnewaz',
     salary: 25000,
 };
-// normalPerson.chargeBill.apply(newazPerson, 900); //using apply method
-normalPerson.chargeBill.apply(newazPerson, 900, 100, 10);  //we can apply multiple parameters using apply method
-normalPerson.chargeBill.apply(newazPerson, 3000, 300, 30); //we can apply multiple parameters using apply method
+// normalPerson.chargeBill.apply(newazPerson, [900]); //using apply method
+normalPerson.chargeBill.apply(newazPerson, [900, 100, 10]);  //we can apply multiple parameters only array format using apply method
+normalPerson.chargeBill.apply(newazPerson, [3000, 300, 30]); 
 console.log(newazPerson.salary);
