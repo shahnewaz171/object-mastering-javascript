@@ -1,4 +1,4 @@
-// using call method
+// using apply method
 const normalPerson = {
     firstName: 'Muhammad',
     lastName: 'Shahnewaz',
@@ -18,7 +18,7 @@ const newazPerson = {
     lastName: 'Shahnewaz',
     salary: 25000,
 };
-// normalPerson.chargeBill.call(newazPerson, 900); //using call method
-normalPerson.chargeBill.call(newazPerson, 900, 100, 10);  //we can call multiple parameters using call method
-normalPerson.chargeBill.call(newazPerson, 3000, 300, 30); //we can call multiple parameters using call method
+// normalPerson.chargeBill.apply(newazPerson, 900); //using apply method
+normalPerson.chargeBill.apply(newazPerson, 900, 100, 10);  //we can apply multiple parameters using apply method
+normalPerson.chargeBill.apply(newazPerson, 3000, 300, 30); //we can apply multiple parameters using apply method
 console.log(newazPerson.salary);
