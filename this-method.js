@@ -10,6 +10,7 @@ const normalPerson = {
         return this.salary;
     }
 };
+
 // console.log(normalPerson.firstName);
 normalPerson.chargeBill(200);
 normalPerson.chargeBill(3000);
