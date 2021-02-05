@@ -12,6 +12,7 @@ const normalPerson = {
         return this.salary;
     }
 };
+
 const newazPerson = {
     firstName: 'Muhammad',
     lastName: 'Shahnewaz',
